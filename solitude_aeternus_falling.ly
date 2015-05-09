@@ -104,7 +104,7 @@ drag = \drummode { < \parenthesize sn > 8:16 }
         \break
 
         \tempo 4=65
-        \once \override Score . RehearsalMark #'extra-offset = #'(0 . -3.5)
+        \once \override Score . RehearsalMark #'extra-offset = #'(0 . -3.4)
         \songbreak "Half-time" "(1'48\")"
         <<cymc4 bd>> hh8 bd <<cymc4 sn>> hh8 bd
         <<cymc4 bd>> <<cymc bd>> <<cymc8 bd>> \times 2/3 {\flam tommh16 tommh8 tommh16 tomfh tomfh tomfh tomfl tomfl tomfl}
@@ -134,7 +134,7 @@ drag = \drummode { < \parenthesize sn > 8:16 }
 \break
 
         \tempo 4=130
-        \once \override Score . RehearsalMark #'extra-offset = #'(0 . -3.5)
+        \once \override Score . RehearsalMark #'extra-offset = #'(0 . -3.4)
         \songbreak "C" "(2'50\") Move you fall..."
         \repeat volta 2 {                  
         <<cymc4 bd>> hh8 bd <<hh8 sn>> <<cymc bd>> <<cymc4 bd>>
