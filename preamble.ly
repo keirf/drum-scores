@@ -30,9 +30,7 @@ partbar = #(define-music-function (parser location duration) (number?)
 songbreak = #(define-music-function (parser location name time) (string? string?)
   #{
     \drummode {
-      \once \override Score.RehearsalMark #'padding = #2
-      \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
-      \once \override Score.RehearsalMark #'break-align-symbol = #'left-edge }
+      \once \override Score.RehearsalMark #'self-alignment-X = #LEFT }
     \mark \markup { \small { \bold $name $time } }
   #})
 
